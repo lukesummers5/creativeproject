@@ -1,0 +1,53 @@
+<html>
+  <head>
+    <script>
+      function copySelected() {
+        var srcTextarea = document.getElementById("totranslate");
+        var destTextarea = document.getElementById("translated");
+        destTextarea.value = srcTextarea.value;
+     }
+     </script>
+    <title></title>
+    <meta content="">
+    <style>
+      body {
+        background-color: lightblue;
+      }
+      h1 {
+        font-family: veranda;
+        font-size: 400%;
+      }
+      h2 {
+        font-family: courrier;
+        font-size: 125%;}
+      p1 {
+        font-family: courier;
+        font-size: 100%;}
+      p3 {
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 align="center">Welcome to Piglatin!!</h1>
+    
+    <h2 align="center">Elcomeway otay Iglatinpay!!</h2>
+    
+    <p1>
+    This site translates normal English to Piglatin. If you want to learn more about how to speak without our help, just follow the links below.
+    </p1>
+    <p2><div></div>
+    Avehay away eatgray imetay!!!
+    </p2>
+    
+    <h2>
+    What Would You Like To Translate?
+    </h2>
+    <textarea id="totranslate" rows="10" cols="50">One Two Thre</textarea>
+    <input value="Translate" onclick="copySelected()" type="button">
+    <h2>
+    Ouryay Esiredday Anslationtray
+    </h2>
+    <textarea id="translated" rows="10"++ cols="50"></textarea>    
+  </body>
+</html>
